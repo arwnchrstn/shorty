@@ -4,6 +4,10 @@ import linkImg from "@/assets/link_short.png";
 const Banner = () => {
     const theme = useTheme(); 
 
+    const redirectToRepo = () => {
+        window.open("https://github.com/arwnchrstn/shorty")
+    }
+
     return (
         <Box>
             <Container>
@@ -18,7 +22,7 @@ const Banner = () => {
                         <Typography variant="subtitle1" pb={1}>
                             This tool is written using React and TypeScript, click the button below to view the source code
                         </Typography>
-                        <Button disableElevation variant="contained" size="small" color="orange">
+                        <Button disableElevation variant="contained" size="small" color="orange" onClick={redirectToRepo}>
                             View Source Code
                         </Button>
                     </Grid>
