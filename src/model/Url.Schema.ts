@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-import { ResponseData, Visitors } from "@/model/IResponseData";
+import { ResponseData } from "@/model/IResponseData";
 
 const UrlSchema = new Schema<ResponseData>({
     actualUrl: {
