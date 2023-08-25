@@ -1,0 +1,7 @@
+@import url("https://allfont.net/allfont.css?fonts=comic-sans-ms");
+
+* {
+  font-family: 'Comic Sans MS', arial;
+  margin: 0;
+  padding: 0;
+}
